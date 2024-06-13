@@ -1,17 +1,28 @@
-<%--
-  Created by IntelliJ IDEA.
-  User: jhosa
-  Date: 13/06/2024
-  Time: 09:21 a. m.
-  To change this template use File | Settings | File Templates.
---%>
 <%@ page contentType="text/html; charset=UTF-8" pageEncoding="UTF-8" %>
 <%@ page import="java.text.DecimalFormat" %>
 <!DOCTYPE html>
 <html>
 <head>
     <title>Resultado del prestamo</title>
-
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl6ukwtvu6V91mRx31L6w1Z80zr3oL2BTf8vZ8R9ncRZtE9Gd0" crossorigin="anonymous">
+    <style>
+        .container {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 20px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 5px;
+            border: 1px solid #ccc;
+        }
+    </style>
 </head>
 <body>
 <div class="container">
@@ -25,8 +36,8 @@
     <table class="table">
         <thead>
         <tr>
-            <th scope="col">#</th>
-            <th scope="col">Cuota</th>
+            <th scope="col">mes</th>
+            <th scope="col">Cuota $</th>
         </tr>
         </thead>
         <tbody>
